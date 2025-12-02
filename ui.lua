@@ -147,14 +147,14 @@ function Library:Window(title)
     MinimizedIcon.Name = "MinimizedIcon"
     MinimizedIcon.Parent = ui
     MinimizedIcon.AnchorPoint = Vector2.new(1, 1)
-    MinimizedIcon.BackgroundColor3 = Color3.fromRGB(232, 17, 85)
+    MinimizedIcon.BackgroundColor3 = Color3.fromRGB(255, 215, 0)
     MinimizedIcon.BackgroundTransparency = 0
     MinimizedIcon.BorderSizePixel = 0
     MinimizedIcon.Position = UDim2.new(1, -20, 1, -20)
     MinimizedIcon.Size = UDim2.new(0, 40, 0, 40)
     MinimizedIcon.Visible = false
     MinimizedIcon.ZIndex = 10
-    MinimizedIcon.Image = "http://www.roblox.com/asset/?id=94120840168667"
+    MinimizedIcon.Image = "http://www.roblox.com/asset/?id=135568978507194"
     
     local MinimizedCorner = Instance.new("UICorner")
     MinimizedCorner.CornerRadius = UDim.new(0, 8)
@@ -362,7 +362,7 @@ end)
         local TabButton = Instance.new("TextButton")
         TabButton.Name = "TabButton"
         TabButton.Parent = TabsContainer
-        TabButton.BackgroundColor3 = Color3.fromRGB(255, 215, 0)
+        TabButton.BackgroundColor3 = Color3.fromRGB(232, 17, 85)
         TabButton.BackgroundTransparency = 1
         TabButton.Size = UDim2.new(1, -12, 0, 30)
         TabButton.AutoButtonColor = false
@@ -392,7 +392,7 @@ end)
             Icon.Position = UDim2.new(0, 5, 0.5, -10)
             Icon.Size = UDim2.new(0, 20, 0, 20)
             Icon.Image = icon
-            Icon.ImageColor3 = Color3.fromRGB(255, 215, 0)
+            Icon.ImageColor3 = Color3.fromRGB(232, 17, 85)
         end
         
         -- Add text label
