@@ -138,7 +138,7 @@ function Library:Window(title)
     Minimize.BackgroundTransparency = 1.000
     Minimize.Position = UDim2.new(1, -6, 0.5, 0)  -- ← DE -30 A -6
     Minimize.Size = UDim2.new(0, 20, 0, 20)
-    Minimize.Image = "rbxassetid://0" -- Minus icon
+    Minimize.Image = "rbxassetid://99176549590456" -- Minus icon
     Minimize.ImageColor3 = Color3.fromRGB(199, 199, 199)
     Minimize.ScaleType = Enum.ScaleType.Crop
         
