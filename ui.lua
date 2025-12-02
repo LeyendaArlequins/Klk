@@ -126,7 +126,7 @@ function Library:Window(title)
     Logo.BackgroundTransparency = 1.000
     Logo.Position = UDim2.new(0, 4, 0.5, 0)
     Logo.Size = UDim2.new(0, 26, 0, 30)
-    Logo.Image = "http://www.roblox.com/asset/?id=94120840168667"
+    Logo.Image = "http://www.roblox.com/asset/?id=135568978507194"
     Logo.ImageColor3 = Color3.fromRGB(105, 105, 105)
     
     -- Minimize Button (using minus icon)
@@ -478,7 +478,7 @@ end)
             local Button = Instance.new("TextButton")
             Button.Name = "Button"
             Button.Parent = Page
-            Button.BackgroundColor3 = Color3.fromRGB(134, 10, 49)
+            Button.BackgroundColor3 = Color3.fromRGB(218, 165, 32)
             Button.BorderSizePixel = 0
             Button.Size = UDim2.new(1, -6, 0, 34)
             Button.AutoButtonColor = false
@@ -496,7 +496,7 @@ end)
             end)
             
             Button.MouseLeave:Connect(function()
-                TweenService:Create(Button, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(134, 10, 49)}):Play()
+                TweenService:Create(Button, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(218, 165, 32)}):Play()
             end)
             
             Button.MouseButton1Click:Connect(function()
@@ -783,7 +783,7 @@ end
             local SliderDrag = Instance.new("Frame")
             SliderDrag.Name = "SliderDrag"
             SliderDrag.Parent = SliderClick
-            SliderDrag.BackgroundColor3 = Color3.fromRGB(188, 14, 69)
+            SliderDrag.BackgroundColor3 = Color3.fromRGB(255, 193, 7) -- sliders / donde se sube las configs de novel
             SliderDrag.Size = UDim2.new((default - min) / (max - min), 0, 1, 0)
             
             local SliderDragCorner = Instance.new("UICorner")
@@ -1774,7 +1774,7 @@ function Library:CreateFloatingIcon(funcName, displayName, callback)
                 BackgroundColor3 = Color3.fromRGB(134, 10, 49)
             }):Play()
             TweenService:Create(stroke, TweenInfo.new(0.2), {
-                Color = Color3.fromRGB(255, 215, 0)
+                Color = Color3.fromRGB(232, 217, 85)
             }):Play()
             TweenService:Create(dot, TweenInfo.new(0.2), {
                 BackgroundColor3 = Color3.fromRGB(0, 255, 0)
