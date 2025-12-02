@@ -125,7 +125,7 @@ function Library:Window(title)
     Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Logo.BackgroundTransparency = 1.000
     Logo.Position = UDim2.new(0, 4, 0.5, 0)
-    Logo.Size = UDim2.new(0, 26, 0, 30)
+    Logo.Size = UDim2.new(0, 30, 0, 34)
     Logo.Image = "http://www.roblox.com/asset/?id=94120840168667"
     Logo.ImageColor3 = Color3.fromRGB(105, 105, 105)
     
