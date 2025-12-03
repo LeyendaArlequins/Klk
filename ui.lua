@@ -154,7 +154,7 @@ function Library:Window(title)
     MinimizedIcon.Size = UDim2.new(0, 38, 0, 38) -- 40, 0 40
     MinimizedIcon.Visible = false
     MinimizedIcon.ZIndex = 10
-    MinimizedIcon.Image = "http://www.roblox.com/asset/?id=74144583069274"
+    MinimizedIcon.Image = "http://www.roblox.com/asset/?id=100459642095184"
     
     local MinimizedCorner = Instance.new("UICorner")
     MinimizedCorner.CornerRadius = UDim.new(0, 8)
