@@ -126,7 +126,7 @@ function Library:Window(title)
     Logo.BackgroundTransparency = 1.000
     Logo.Position = UDim2.new(0, 4, 0.5, 0)
     Logo.Size = UDim2.new(0, 30, 0, 34)
-    Logo.Image = "http://www.roblox.com/asset/?id=135568978507194"
+    Logo.Image = "http://www.roblox.com/asset/?id=74144583069274"
     Logo.ImageColor3 = Color3.fromRGB(255, 15, 0) -- icono de la ui
     
     -- Minimize Button (using minus icon)
@@ -154,7 +154,7 @@ function Library:Window(title)
     MinimizedIcon.Size = UDim2.new(0, 38, 0, 38) -- 40, 0 40
     MinimizedIcon.Visible = false
     MinimizedIcon.ZIndex = 10
-    MinimizedIcon.Image = "http://www.roblox.com/asset/?id=74144583069274"
+    MinimizedIcon.Image = "http://www.roblox.com/asset/?id=135568978507194"
     
     local MinimizedCorner = Instance.new("UICorner")
     MinimizedCorner.CornerRadius = UDim.new(0, 8)
