@@ -147,7 +147,7 @@ function Library:Window(title)
     MinimizedIcon.Name = "MinimizedIcon"
     MinimizedIcon.Parent = ui
     MinimizedIcon.AnchorPoint = Vector2.new(1, 1)
-    MinimizedIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    --MinimizedIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     MinimizedIcon.BackgroundTransparency = 0
     MinimizedIcon.BorderSizePixel = 0
     MinimizedIcon.Position = UDim2.new(1, -20, 1, -20)
