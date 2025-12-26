@@ -1719,7 +1719,8 @@ function Library:CreateFloatingIcon(funcName, displayName, callback)
         AntiRagdoll = {x = 920, y = 400},
         AntiKnockbackV2 = {x = 920, y = 440},
         ShiftLock = {x = 720, y = 480},
-        AutoShiftLock = {x = 640, y = 120}
+        AutoShiftLock = {x = 640, y = 120},
+        AutoSteal = {x = 640, y = 240}
     }
     
     local pos = gridPositions[funcName] or {x = math.random(100, 400), y = math.random(100, 400)}
